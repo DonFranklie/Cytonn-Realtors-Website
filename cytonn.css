@@ -12,6 +12,11 @@
 	height: 100vh;
 	
   }
+
+  .homepage-container{
+	max-width: 1100px;
+	margin: 0 auto;
+  }
   .nav-bar{
 	display: flex;
 	justify-content: space-between;
@@ -44,9 +49,10 @@
   }
   
   .content{
-	position: relative;
-	top: 26%;
-	left: 7%;
+	
+	position: absolute;
+	top: 40%;
+	left: 8%;
 	color: white;
   }
   
