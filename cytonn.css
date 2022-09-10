@@ -9,6 +9,7 @@
 	background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.8)), url(./Images/asset-4.jpg);
 	background-size: cover;
 	background-position: center;
+	margin: 0;
 	height: 100vh;
 	
   }
@@ -16,28 +17,28 @@
   .homepage-container{
 	max-width: 1100px;
 	margin: 0 auto;
+	position: relative;
   }
   .nav-bar{
 	display: flex;
+	align-items: center;
 	justify-content: space-between;
   }
   
   .logo{
-	width: 150px;
+	width: 145px;
 	padding: 10px;
-	position: absolute;
-	left: 7%;
   }
   
   .menu-list{
 	list-style-type: none;
 	display: inline-block;
-	padding: 18px;
+	padding: 15px;
   }
   .menu-links{
 	color: white;
 	text-decoration: none;
-	padding: 22px;
+	padding: 10px;
 	font-weight: bold;
   }
   
@@ -49,10 +50,9 @@
   }
   
   .content{
-	
 	position: absolute;
-	top: 40%;
-	left: 8%;
+	top: 200px;
+	left: 0;
 	color: white;
   }
   
@@ -73,12 +73,46 @@
   .content-btn{
 	margin: 10px;
 	border: transparent;
-	background: linear-gradient(to right, darkorange, #ad4236 75%);
+	background: linear-gradient(to right, darkorange, #ad4236 80%);
 	padding: 10px 16px;
-	border-radius: 10px;
+	border-radius: 5px;
 	color: white;
 	font-size: 16px; 
 	cursor: pointer;
+  }
+
+  .choice-container{
+	position: absolute;
+	top: 570px;
+	left: 0;
+	background-color: steelblue;
+	width: 900px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 20px;
+	border-radius: 2px;
+	background: linear-gradient(to right, darkorange, #ad4236 80%);
+  }
+
+  .class-btns{
+	height: 35px;
+	color: white;
+	border: none;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 5px 20px 5px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 2px;
+	font-size: 16px;
+	cursor: pointer;
+	margin: 6px;
+  }
+
+  .available{
+	background: transparent;
   }
   
   .experience-page{
