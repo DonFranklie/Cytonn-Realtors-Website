@@ -1,0 +1,308 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.home-page {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(/Images/home-living.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  height: 100vh;
+}
+
+.homepage-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 145px;
+  padding: 10px;
+}
+
+.menu-list {
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px;
+}
+
+.menu-links {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.menu-links:hover {
+  background: linear-gradient(to right, darkorange, #ad4236 75%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  color: white;
+}
+
+.first-paragraph {
+  background: linear-gradient(to right, darkorange, #ad4236 75%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 600px;
+  margin: 10px;
+  font-size: 38px;
+}
+
+.second-paragraph {
+  margin: 10px;
+}
+
+.content-btn {
+  margin: 10px;
+  border: transparent;
+  background: linear-gradient(to right, darkorange, #ad4236 80%);
+  padding: 10px 16px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.choice-container {
+  position: absolute;
+  top: 570px;
+  left: 0;
+  background-color: steelblue;
+  width: 950px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 2px;
+  background: linear-gradient(to right, darkorange, #ad4236 80%);
+}
+
+.class-btns {
+  font-weight: bold;
+  height: 35px;
+  color: white;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px 20px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 6px;
+}
+
+.available {
+  background: transparent;
+}
+
+.experience-page {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.8)), url(/Images/living-room.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.experience-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.first-paragraph-experience {
+  width: 500px;
+  background: linear-gradient(to right, darkorange, #ad4236 75%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 38px;
+}
+
+.image1-experience {
+  width: 450px;
+  height: 230px;
+  padding: 10px;
+  align-self: start;
+}
+
+.image2-experience {
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  padding: 10px 2px 10px 10px;
+  align-self: end;
+}
+
+.paragraph-experience {
+  color: white;
+  width: 500px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.explore-page {
+  background: rgba(0, 0, 0, 0.95);
+  min-height: 100vh;
+}
+
+.explore-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text .title {
+  background: linear-gradient(to right, darkorange, #ad4236 66%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 35px;
+  line-height: 1.2;
+  letter-spacing: 1.5px;
+  margin-bottom: 6px;
+  margin-top: 25px;
+}
+
+.text .text-1 {
+  color: white;
+}
+
+.the-images {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.images {
+  position: relative;
+}
+
+.the-images .images img {
+  width: 250px;
+  height: 400px;
+  border-radius: 2px;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.the-images .images img:hover {
+  transform: scale(1.03);
+  opacity: 1;
+}
+
+.images p {
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.offers__container {
+  max-width: 1100px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.offers__title {
+  background: linear-gradient(to right, darkorange, #ad4236 66%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 35px;
+  line-height: 1.2;
+  letter-spacing: 1.5px;
+}
+
+.offers__paragraph {
+  margin-bottom: 25px;
+}
+
+.offers__cards {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 350px 350px;
+  column-gap: 29px;
+  row-gap: 36px;
+}
+
+.offers__card {
+  background-color: #ad4236;
+  border-radius: 5px;
+  box-shadow: 2px 6px 10px 1px rgba(122, 122, 122, 0.4);
+  position: relative;
+  color: #fff;
+}
+.offers__card .card__image {
+  width: 100%;
+  border-radius: 5px;
+  z-index: 1;
+  height: 100%;
+}
+.offers__card .card--1__text {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+.offers__card .card--1__text div:nth-child(1) {
+  margin-left: 300px;
+  margin-top: 20px;
+  text-align: center;
+  width: 180px;
+}
+.offers__card .card--1__text div:nth-child(1) p {
+  font-size: 10px;
+}
+.offers__card .card--1__text div:nth-child(2) {
+  margin-left: 10px;
+  margin-top: 90px;
+  width: 180px;
+  text-align: center;
+}
+.offers__card .card--1__text div:nth-child(2) h3 {
+  font-size: 31px;
+  line-height: 25px;
+}
+.offers__card .card--1__text div:nth-child(2) p {
+  font-size: 14px;
+}
