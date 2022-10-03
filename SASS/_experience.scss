@@ -1,0 +1,48 @@
+.experience-page{
+	height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.8)), url(/Images/living-room.jpg);
+	background-position: center;
+	background-size: cover;
+  }
+  
+  .experience-container{
+	max-width: 1100px;
+    margin: 0 auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .first-paragraph-experience{
+	width: 500px;
+    background: linear-gradient(to right, darkorange, #ad4236 75%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 38px;
+  }
+  
+  .image1-experience{
+	width: 450px;
+	height: 230px;
+	padding: 10px;
+    align-self: start;
+  }
+  
+  .image2-experience{
+	width: 500px;
+	height: 250px;
+	object-fit: cover;
+	object-position: center;
+	padding: 10px 2px 10px 10px;
+    align-self: end;
+  }
+  
+  .paragraph-experience{
+	color: white;
+	width: 500px;
+	padding: 10px;
+	font-size: 20px;
+  }

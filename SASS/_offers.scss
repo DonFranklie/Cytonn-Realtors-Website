@@ -1,0 +1,87 @@
+.offers__container{
+    max-width: 1100px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+
+.offers__title{
+    background: linear-gradient(to right, darkorange, #ad4236 66%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 35px;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+}
+
+.offers__paragraph{
+    margin-bottom: 25px;
+}
+
+.offers__cards{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 350px 350px;
+    column-gap: 29px;
+    row-gap: 36px;
+}
+
+.offers__card{
+    background-color: #ad4236;
+    border-radius: 5px;  
+    box-shadow: 2px 6px 10px 1px rgba(122, 122, 122, 0.4); 
+    position: relative;
+    color: #fff;
+
+    // ALL CARDS
+    .card__image{
+        width: 100%;
+        border-radius: 5px;
+        z-index: 1;
+        height: 100%;
+    }
+
+    // CARD--1
+    .card--1__text{
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        display: flex;
+        flex-direction: column;
+        z-index: 2;
+
+        & div:nth-child(1){
+            margin-left: 300px;
+            margin-top: 20px;
+            text-align: center;
+            width: 180px;
+
+            p{
+                font-size: 10px;
+            }
+        }
+
+        & div:nth-child(2){
+            margin-left: 10px;
+            margin-top: 90px;
+            width: 180px;
+            text-align: center;
+            
+            h3{
+                font-size: 31px;
+                line-height: 25px;
+            }
+            p{
+                font-size: 14px;
+                // font-weight: bold;
+            }
+        }
+    }
+
+
+}
+
+
+
