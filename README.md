@@ -3,9 +3,9 @@ A Real-Estate/Vacation Landing Page.
 
 # Built with:
 * HTML
-* CSS
+* CSS - Used Sass 
 
-# Reason for BUild
+# Reason for Build
 This a practice site as I continue perfecting my skill in html and css skills.
 
 # Screenshot
