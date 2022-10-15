@@ -4,3 +4,10 @@
 @import 'experience';
 @import 'explore';
 @import 'offers';
+
+@mixin gradient-text-color{
+    background: linear-gradient(to right, darkorange, #ad4236 66%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
