@@ -6,6 +6,25 @@
   font-family: "Barlow Condensed", sans-serif;
 }
 
+.button-basics, .offers__box .offers__box--body .box__button, .content-btn {
+  margin: 10px;
+  border: transparent;
+  background: linear-gradient(to right, darkorange, #ad4236 80%);
+  padding: 10px 9px 10px 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.9s ease-in-out;
+}
+.button-basics:hover, .offers__box .offers__box--body .box__button:hover, .content-btn:hover {
+  background: linear-gradient(to right, rgb(243, 171, 83), #9e5a52 80%);
+}
+
+.btn-arrow {
+  margin-left: 30px;
+}
+
 .home-page {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(/Images/home-living.jpg);
   background-size: cover;
@@ -45,7 +64,7 @@
 }
 
 .menu-links:hover {
-  background: linear-gradient(to right, darkorange, #ad4236 75%);
+  background: linear-gradient(to right, darkorange, #ad4236 66%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -59,7 +78,7 @@
 }
 
 .first-paragraph {
-  background: linear-gradient(to right, darkorange, #ad4236 75%);
+  background: linear-gradient(to right, darkorange, #ad4236 66%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -70,17 +89,6 @@
 
 .second-paragraph {
   margin: 10px;
-}
-
-.content-btn {
-  margin: 10px;
-  border: transparent;
-  background: linear-gradient(to right, darkorange, #ad4236 80%);
-  padding: 10px 16px;
-  border-radius: 5px;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
 }
 
 .choice-container {
@@ -135,7 +143,7 @@
 
 .first-paragraph-experience {
   width: 500px;
-  background: linear-gradient(to right, darkorange, #ad4236 75%);
+  background: linear-gradient(to right, darkorange, #ad4236 66%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -384,4 +392,35 @@
 .offers__card .card--4__text div:nth-child(2) p:nth-child(2) {
   font-size: 12px;
   margin-left: 290px;
+}
+
+.offers__box {
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.8)), url(/Images/offers-box.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 1065px;
+  height: 250px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.offers__box .offers__box--body {
+  color: #fff;
+}
+.offers__box .offers__box--body .box__title {
+  font-size: 60px;
+  font-weight: 400;
+}
+.offers__box .offers__box--body .box__text {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.1;
+}
+.offers__box .offers__box--body .box__button {
+  padding: 10px 29px 10px 29px;
 }
