@@ -9,11 +9,9 @@
 
 
 .offers__title{
-    background: linear-gradient(to right, darkorange, #ad4236 66%);
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-    font-size: 35px;
+   @include gradient-text-color;
+    font-size: 45px;
+    font-weight: 600;
     margin-top: 30px;
     line-height: 1.2;
     letter-spacing: 1.5px;

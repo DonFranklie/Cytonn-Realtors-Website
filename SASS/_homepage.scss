@@ -19,7 +19,7 @@
   }
   
   .logo{
-	width: 145px;
+	width: 155px;
 	padding: 10px;
   }
   
@@ -37,10 +37,7 @@
   }
   
   .menu-links:hover{
-	  background: linear-gradient(to right, darkorange, #ad4236 75%);
-	  background-clip: text;
-	  -webkit-background-clip: text;
-	  -webkit-text-fill-color: transparent;
+	@include gradient-text-color;
   }
   
   .content{
@@ -51,10 +48,7 @@
   }
   
   .first-paragraph{
-	background: linear-gradient(to right, darkorange, #ad4236 75%);
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	@include gradient-text-color;
 	width: 600px;
 	margin: 10px;
 	font-size: 38px;

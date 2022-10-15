@@ -17,10 +17,7 @@
   
   .first-paragraph-experience{
 	width: 500px;
-    background: linear-gradient(to right, darkorange, #ad4236 75%);
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+   @include gradient-text-color;
 	font-size: 38px;
   }
   

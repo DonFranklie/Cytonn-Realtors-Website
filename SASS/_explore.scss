@@ -16,11 +16,9 @@
 }
 
 .text .title{
-    background: linear-gradient(to right, darkorange, #ad4236 66%);
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-    font-size: 35px;
+   @include gradient-text-color;
+    font-size: 45px;
+    font-weight: 600;
     line-height: 1.2;
     letter-spacing: 1.5px;
     margin-bottom: 6px;
@@ -55,7 +53,7 @@
 }
 
 .the-images .images img:hover{
-    transform: scale(1.03);
+    transform: translateY(-5px);
     opacity: 1;
 
 }
