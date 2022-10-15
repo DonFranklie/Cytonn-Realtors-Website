@@ -5,6 +5,11 @@
 	font-family: 'Barlow Condensed', sans-serif;
 }
 
+body{
+    background-color: #f5f5f5;
+}
+
+
 @mixin text-color {
     background: linear-gradient(to right, darkorange, #ad4236 66%);
 	background-clip: text;
