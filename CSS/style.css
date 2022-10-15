@@ -6,6 +6,10 @@
   font-family: "Barlow Condensed", sans-serif;
 }
 
+body {
+  background-color: #f5f5f5;
+}
+
 .button-basics, .offers__box .offers__box--body .box__button, .content-btn {
   margin: 10px;
   border: transparent;
