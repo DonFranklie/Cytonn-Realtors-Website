@@ -4,3 +4,31 @@
 	box-sizing: border-box;
 	font-family: 'Barlow Condensed', sans-serif;
 }
+
+@mixin text-color {
+    background: linear-gradient(to right, darkorange, #ad4236 66%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.button-basics{
+	margin: 10px;
+	border: transparent;
+	background: linear-gradient(to right, darkorange, #ad4236 80%);
+	padding: 10px 9px 10px 10px;
+	border-radius: 5px;
+	// width: 150px;
+	color: white;
+	font-size: 16px; 
+	cursor: pointer;
+	transition: all .9s ease-in-out;
+
+	&:hover{
+		background: linear-gradient(to right, rgb(243, 171, 83), #9e5a52 80%);
+	}
+}
+
+.btn-arrow{
+	margin-left: 30px;
+}
