@@ -37,7 +37,7 @@
   }
   
   .menu-links:hover{
-	@include gradient-text-color;
+	@include text-color;
   }
   
   .content{
@@ -48,7 +48,7 @@
   }
   
   .first-paragraph{
-	@include gradient-text-color;
+	@include text-color;
 	width: 600px;
 	margin: 10px;
 	font-size: 38px;
@@ -59,14 +59,7 @@
   }
   
   .content-btn{
-	margin: 10px;
-	border: transparent;
-	background: linear-gradient(to right, darkorange, #ad4236 80%);
-	padding: 10px 16px;
-	border-radius: 5px;
-	color: white;
-	font-size: 16px; 
-	cursor: pointer;
+	@extend .button-basics;
   }
 
   .choice-container{

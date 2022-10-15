@@ -16,7 +16,7 @@
 }
 
 .text .title{
-   @include gradient-text-color;
+   @include text-color;
     font-size: 45px;
     font-weight: 600;
     line-height: 1.2;
