@@ -27,10 +27,11 @@ body{
 	color: white;
 	font-size: 16px; 
 	cursor: pointer;
-	transition: all .9s ease-in-out;
+	transition: all .2s ease-in-out;
 
 	&:hover{
-		background: linear-gradient(to right, rgb(243, 171, 83), #9e5a52 80%);
+		// background: linear-gradient(to right, rgb(243, 171, 83), #9e5a52 80%);
+		color: #000;
 	}
 }
 
