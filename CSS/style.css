@@ -29,6 +29,28 @@ body {
   margin-left: 30px;
 }
 
+.news__titles, .news__grid-container .card--3 .card--3__title, .news__grid-container .card--2 .card--2__title, .news__grid-container .card--1 .card--1__title {
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.news__main, .news__grid-container .card--3 .card--3__main, .news__grid-container .card--2 .card--2__main, .news__grid-container .card--1 .card--1__main {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-size: 23px;
+  text-transform: capitalize;
+}
+
+.news__clinchers, .news__grid-container .card--3 .card--3__clincher, .news__grid-container .card--2 .card--2__clincher, .news__grid-container .card--1 .card--1__clincher {
+  position: absolute;
+  bottom: 20px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
 .home-page {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(/Images/home-living.jpg);
   background-size: cover;
@@ -458,21 +480,40 @@ body {
 }
 
 .news__grid-container {
+  display: grid;
+  grid-template-columns: repeat(200px, 4);
+  grid-template-rows: 220px 220px;
+  gap: 20px;
   color: #fff;
 }
 .news__grid-container .news__card {
   position: relative;
+  border-radius: 5px;
+  padding: 20px;
 }
 .news__grid-container .card--1 {
-  background: #000;
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.75)), url(../Images/news-card-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-column: 1/3;
+  grid-row: 1/3;
 }
 .news__grid-container .card--2 {
-  background: #000;
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.75)), url(../Images/news-card-2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-column: 3/5;
+  width: 350px;
 }
 .news__grid-container .card--3 {
-  background: #000;
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.75)), url(../Images/news-card-3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-column: 3/5;
 }
-
 html {
   scroll-behavior: smooth;
 }

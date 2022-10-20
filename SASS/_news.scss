@@ -1,3 +1,4 @@
+
 .news__container{
     max-width: 1100px;
     margin: 0 auto;
@@ -23,25 +24,84 @@
 }
 
 .news__grid-container{
-    // display: grid;
-    // grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: repeat(200px,4);
+    grid-template-rows: 220px 220px;
+    gap: 20px;
 
     color: #fff;
 
 
     .news__card{
         position: relative;
+        border-radius: 5px;
+        padding: 20px;
+
     }
 
     .card--1{
-        background: #000;
+        background: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.75)),url(../Images/news-card-1.jpg);
+        background-position: center;
+        // height: ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column: 1/3;
+        grid-row: 1/3;
+
+        .card--1__title{
+            @extend .news__titles;
+        }
+
+        .card--1__main{
+            @extend .news__main;
+        }
+
+        // .card--1__sub-main{
+        //     width: 400px
+        // }
+
+        .card--1__clincher{
+            @extend .news__clinchers;
+        }
     }
-    
     .card--2{
-        background: #000;
+        background: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.75)),url(../Images/news-card-2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column: 3/5;
+        width: 350px;
+
+        .card--2__title{
+            @extend .news__titles;
+        }
+
+        .card--2__main{
+            @extend .news__main;
+        }
+
+        .card--2__clincher{
+            @extend .news__clinchers;
+        }
     }
     
     .card--3{
-        background: #000;
+        background: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.75)),url(../Images/news-card-3.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column: 3/5;
+
+        .card--3__title{
+            @extend .news__titles;
+        }
+
+        .card--3__main{
+            @extend .news__main;
+        }
+
+        .card--3__clincher{
+            @extend .news__clinchers;
+        }
     }
 }
