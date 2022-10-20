@@ -38,3 +38,25 @@ body{
 .btn-arrow{
 	margin-left: 30px;
 }
+
+.news__titles{
+	font-weight: 400;
+	letter-spacing: .8px;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.news__main{
+	font-weight: 500;
+	letter-spacing: .5px;
+	font-size: 23px;
+	text-transform: capitalize;
+}
+
+.news__clinchers{
+	position: absolute;
+	bottom: 20px;
+	font-weight: 500;
+	font-size: 17px;
+}
