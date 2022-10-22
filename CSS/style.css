@@ -505,7 +505,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   grid-column: 3/5;
-  width: 350px;
 }
 .news__grid-container .card--3 {
   background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.75)), url(../Images/news-card-3.jpg);
