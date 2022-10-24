@@ -52,7 +52,7 @@ body {
 }
 
 .home-page {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(/Images/home-living.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../Images/home-living.jpg);
   background-size: cover;
   background-position: center;
   margin: 0;
@@ -72,7 +72,7 @@ body {
 }
 
 .logo {
-  width: 155px;
+  width: 165px;
   padding: 10px;
 }
 
