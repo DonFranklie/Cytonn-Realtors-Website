@@ -330,21 +330,40 @@ body {
   text-align: center;
   width: 180px;
 }
-.offers__card .card--1__text div:nth-child(1) p {
+.offers__card .card--1__text div:nth-child(1) h3 {
+  text-decoration: underline;
+}
+.offers__card .card--1__text div:nth-child(1) p:nth-child(3) {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.offers__card .card--1__text div:nth-child(1) p:nth-child(2) {
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+.offers__card .card--1__text div:nth-child(1) .aditya-last {
+  text-transform: uppercase;
   font-size: 10px;
 }
 .offers__card .card--1__text div:nth-child(2) {
   margin-left: 30px;
   margin-top: 80px;
   width: 180px;
+  padding: 5px;
   text-align: center;
+  border-top: solid 1px white;
+  border-bottom: solid 1px white;
 }
 .offers__card .card--1__text div:nth-child(2) h3 {
   font-size: 31px;
   line-height: 25px;
+  margin-bottom: 7px;
 }
 .offers__card .card--1__text div:nth-child(2) p {
-  font-size: 12.1px;
+  text-align: center;
+  font-size: 13.1px;
+  width: 90px;
+  margin-left: 30px;
 }
 .offers__card .card--2__text {
   position: absolute;
@@ -365,6 +384,20 @@ body {
   font-size: 40px;
   letter-spacing: 5px;
   margin-top: 20px;
+}
+.offers__card .card--2__text div:nth-child(1) p:nth-child(2) {
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.offers__card .card--2__text div:nth-child(2) p:nth-child(1) {
+  letter-spacing: 0.5px;
+  width: 340px;
+}
+.offers__card .card--2__text div:nth-child(3) p:nth-child(1) {
+  font-size: 19px;
+}
+.offers__card .card--2__text div:nth-child(3) p:nth-child(2) {
+  font-size: 10.5px;
 }
 .offers__card .card--3__text {
   position: absolute;
@@ -407,7 +440,11 @@ body {
 .offers__card .card--4__text div:nth-child(1) p:nth-child(1) {
   font-size: 40px;
 }
-.offers__card .card--4__text div:nth-child(1) p:nth-child(2), .offers__card .card--4__text div:nth-child(1) p:nth-child(3) {
+.offers__card .card--4__text div:nth-child(1) p:nth-child(2) {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.offers__card .card--4__text div:nth-child(1) p:nth-child(3) {
   font-size: 14px;
 }
 .offers__card .card--4__text div:nth-child(2) {
@@ -419,10 +456,11 @@ body {
 }
 .offers__card .card--4__text div:nth-child(2) p:nth-child(1) {
   font-size: 45px;
+  margin-bottom: 7px;
 }
 .offers__card .card--4__text div:nth-child(2) p:nth-child(2) {
   font-size: 12px;
-  margin-left: 290px;
+  margin-left: 205px;
 }
 
 .offers__box {
