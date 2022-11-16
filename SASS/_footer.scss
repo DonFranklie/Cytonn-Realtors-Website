@@ -1,3 +1,126 @@
 .footer{
-    padding: 80px 150px;
+background-color: rgb(209, 206, 206);
+height: 100%;
+width: 100%;
+
+&__container{
+    max-width: 1100px;
+	margin: 0 auto;
+
+
+    .footer__main{
+      display: flex;
+      align-items: top;
+    //   justify-content: space-around;
+      padding: 100px 0 20px 0;
+      gap: 20px;
+    }
+    .short__links{
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+       row-gap: 25px;
+       column-gap: 20px;
+
+        h4{
+            margin-bottom: 5px;
+        }
+    }
+
+    .footer__contact{
+        order: 1;
+        
+        h4{
+            padding-bottom: 20px;
+        }
+
+        .input{
+            position: relative;
+
+            input{
+                outline: none;
+                width: 250px;
+                height: 40px;
+                padding: 5px;
+                border: gray solid 1px;
+                border-radius: 4px;
+                font-size: 16px;
+            }
+
+            button{
+                width: 85px;
+                height: 40px;
+                background: black;
+                color: white;
+                font-size: 18px;
+                padding: 5px 10px 10px 10px;
+                border-radius: 0 4px 4px 0;
+                position: absolute;
+                left: 170px;
+                cursor: pointer;
+            }
+        }
+    
+        .social-media{
+            h4{
+                padding: 20px 0;
+            }
+
+            .media__icons{
+                display: flex;
+                gap: 20px;
+                font-size: 22px;
+
+                i{
+                    cursor: pointer;
+                }
+
+                i:nth-child(1){
+                    color: rgb(15, 15, 192);
+                }
+
+                i:nth-child(2){
+                    color: rgb(62, 115, 158);
+                }
+                
+                i:nth-child(3){
+                    color: saddlebrown;
+                }
+
+                i:nth-child(4){
+                    color: rgb(172, 2, 2);
+                }
+
+                i:nth-child(5){
+                    color: rgb(30, 30, 110);
+                }
+            }
+        }
+    }
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+
+.footer__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    // margin-top: 30px;
+    padding-top: 30px;
+    // margin-bottom: 10px;
+    padding-bottom: 25px;
+    border-top: 1px solid rgb(165, 164, 164);
+    border-top-width: 100%;
+
+    h4{
+        cursor:pointer;
+    }
+}
 }
