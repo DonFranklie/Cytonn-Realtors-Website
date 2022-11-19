@@ -93,6 +93,9 @@
 	margin: 6px;
   }
 
+  .available:nth-child(1){
+	border-right: solid 1px white;
+  }
   .available{
 	background: transparent;
   }

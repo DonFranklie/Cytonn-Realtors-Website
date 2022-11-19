@@ -7,31 +7,38 @@
   
   .experience-container{
 	max-width: 1100px;
-    margin: 0 auto;
-    
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
-    // flex-wrap: wrap;
+  margin: 0 auto;
   }
 
   .experience__text{
+    display: flex;
+    padding: 120px;
     display: grid;
-    grid-template-columns: 550px 550px;
-    // align-items: center;
-    gap: 10px;
+    place-content: center;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 20px;
   }
   
+  .first-paragraph-experience-main{
+  // border: #fff solid 2px;
+  align-items: center;
+  }
+
   .first-paragraph-experience{
 	width: 600px;
-   @include text-color;
-	font-size: 55px;
-  border: #fff solid 2px;
+  padding-top: 50px;
+  @include text-color;
+	font-size: 40px;
+  letter-spacing: 2px;
+  align-self: center;
   }
   
   .image1-experience{
 	width: 450px;
-  border: #fff solid 2px;
+  // border: #fff solid 2px;
+  border-radius: 2px;
 	height: 230px;
     align-self: start;
   }
@@ -42,15 +49,25 @@
 	object-fit: cover;
 	object-position: center;
 	padding: 10px 2px 10px 10px;
-    align-self: end;
-  border: #fff solid 2px;
+  align-self: end;
+  border-radius: 10px;
   }
   
+  .pg-exp{
+  // border: #fff solid 2px;
+
+  .parag-btn{
+    color: #fff;
+    padding-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  }
   .paragraph-experience{
 	color: white;
 	width: 500px;
 	padding: 10px;
-	font-size: 20px;
-  border: #fff solid 2px;
+	font-size: 17px;
 
   }
